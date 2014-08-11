@@ -72,19 +72,5 @@ public class MergeFile {
 		merge_output.close();
 		System.out.println("合成文件成功!");
 	}
-	
-	public static void main(String[] argv) throws IOException, NoSuchAlgorithmException {
-		if(argv.length<2){
-			System.out.println("parameter error!please input  srcFilePath and mergeFilePath!");
-			System.exit(0);
-		}
-		MergeFile mergefile=new MergeFile();
-		mergefile.setSrcFilePath(argv[0]);
-		mergefile.setMergeFilePath(argv[1]);
-		
-		mergefile.mergeFile();	
-	}
-
-	
 
 }

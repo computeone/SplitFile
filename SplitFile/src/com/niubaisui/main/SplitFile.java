@@ -109,18 +109,6 @@ public class SplitFile {
 		System.out.println("分片大小:"+splitSize);
 		System.out.println("分片处理完成！");
 	}
-	public static void main(String[] argv) throws NoSuchAlgorithmException, IOException {
-		if(argv.length<4){
-			System.out.println("parameter error!please input srFilePath、splitFilePath、srcFileName  and splitcount! ");
-			System.exit(0);
-		}
-//		SplitFile  splitfile=new SplitFile();
-//		splitfile.setSrcFilePath(argv[0]);
-//		splitfile.setSplitFilePath(argv[1]);
-//		splitfile.setSrcFileName(argv[2]);
-//		splitfile.splitFile(Integer.valueOf(argv[3]));
-		
-	}
-	
+
 	
 }
