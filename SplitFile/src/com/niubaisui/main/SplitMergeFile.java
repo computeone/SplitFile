@@ -15,13 +15,13 @@ public class SplitMergeFile {
 	public static void main(String[] argv) throws NumberFormatException, NoSuchAlgorithmException, IOException {
 		if(argv.length<2){
 			System.out.println("error:");
-			System.out.println("-s  srFilePath、splitFilePath、srcFileName  and splitcount!");
+			System.out.println("-s  srcFilePath、splitToFilePath、srcFileName  and splitcount!");
 			System.out.println("-m  srcFilePath and mergeFilePath");
 			System.exit(0);
 		}
 		if(argv[0].equals("-s")){
 			if(argv.length<5){
-				System.out.println("-s  srFilePath、splitFilePath、srcFileName  and splitcount!");
+				System.out.println("-s  srcFilePath、splitToFilePath、srcFileName  and splitcount!");
 				System.exit(0);
 			}
 			SplitFile  splitfile=new SplitFile();

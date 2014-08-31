@@ -7,8 +7,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.security.NoSuchAlgorithmException;
-
 import com.niubaisui.header.MajorFileHeader;
 import com.niubaisui.header.SplitHeader;
 import com.niubaisui.util.SplitFileUtil;
